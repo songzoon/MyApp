@@ -26,7 +26,7 @@ import { Geolocation } from '@ionic-native/geolocation';  // import plugin geolo
     SocialInfoPage,
     BarcodeScannerPage,
     GMapPage,
-    JsonMenuPage,
+    JsonMenuPage
   ],
   imports: [
     BrowserModule,
@@ -40,7 +40,7 @@ import { Geolocation } from '@ionic-native/geolocation';  // import plugin geolo
     SocialInfoPage,
     BarcodeScannerPage,
     GMapPage,
-    JsonMenuPage,
+    JsonMenuPage
   ],
   providers: [
     StatusBar,
