@@ -1,3 +1,4 @@
+import { JsonMenuPage } from './../pages/json-menu/json-menu';
 import { GMapPage } from './../pages/g-map/g-map';
 import { BarcodeScannerPageModule } from './../pages/barcode-scanner/barcode-scanner.module';
 import { BarcodeScannerPage } from './../pages/barcode-scanner/barcode-scanner';
@@ -16,6 +17,7 @@ import { SMS } from '@ionic-native/sms'; // import plugin SMS
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';  // import plugin BarcodeScanner
 import { Geolocation } from '@ionic-native/geolocation';  // import plugin geolocation
 
+
 @NgModule({
   declarations: [
     MyApp,
@@ -24,6 +26,7 @@ import { Geolocation } from '@ionic-native/geolocation';  // import plugin geolo
     SocialInfoPage,
     BarcodeScannerPage,
     GMapPage,
+    JsonMenuPage,
   ],
   imports: [
     BrowserModule,
@@ -37,6 +40,7 @@ import { Geolocation } from '@ionic-native/geolocation';  // import plugin geolo
     SocialInfoPage,
     BarcodeScannerPage,
     GMapPage,
+    JsonMenuPage,
   ],
   providers: [
     StatusBar,

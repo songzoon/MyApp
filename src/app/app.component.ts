@@ -9,6 +9,7 @@ import { ListPage } from '../pages/list/list';
 import { SocialInfoPage } from '../pages/social-info/social-info';
 import { BarcodeScannerPage } from './../pages/barcode-scanner/barcode-scanner';
 import { GMapPage } from './../pages/g-map/g-map';
+import { JsonMenuPage } from './../pages/json-menu/json-menu';
 
 
 @Component({
@@ -30,7 +31,8 @@ export class MyApp {
       { title: 'Home', component: HomePage, icon: 'md-finger-print' },
       { title: 'List', component: ListPage, icon: 'md-finger-print' },
       { title: 'Scanner', component: BarcodeScannerPage, icon: 'md-finger-print' },
-      { title: 'Map', component: GMapPage, icon: 'md-finger-print' }
+      { title: 'Map', component: GMapPage, icon: 'md-finger-print' },
+      { title: 'JsonMenu', component: JsonMenuPage, icon: 'md-finger-print' },
     ];
 
   }
